@@ -88,7 +88,7 @@ Array.from(noteCards).forEach((e)=>{
     let cardTxt=e.getElementsByTagName("p")[0].innerText;
     if(cardTxt.includes(inputVal)){
         e.style.display="block"
-        console.log(e.getElementsByTagName("p")[0].innerText)
+        console.log(e.getElementsByTagName("p")[0])
     }else{
         e.style.display="none"
     }
